@@ -36,7 +36,7 @@ body {
 form div h2 {
   font-size: 30px;
   letter-spacing: 2px;
-  font-weight: bold;
+  font-weight: 500;
 }
 
 form .input-wrapper .link-wrapper {
@@ -89,13 +89,13 @@ form .input-wrapper .link-wrapper a {
   }
   .wrapKirim .inputKirim {
     font-size: 10px !important;
-    width: 154px;
+    width: 154px !important;
   }
   .myInput {
     border: none;
-    width: 292px;
+    width: 292px !important;
     height: 40px !important;
-    border-radius: 20px;
+    border-radius: 20px !important;
   }
   input::-webkit-input-placeholder {
     font-size: 10px !important;
@@ -115,7 +115,7 @@ form .input-wrapper .link-wrapper a {
   border: none;
   width: 392px;
   height: 50px;
-  border-radius: 20px;
+  border-radius: 30px;
 }
 
 input::-webkit-input-placeholder {

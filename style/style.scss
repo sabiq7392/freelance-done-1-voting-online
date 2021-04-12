@@ -10,7 +10,6 @@ html {
     scroll-behavior: smooth;
 }
 body {
-    
     height: 100vh;
     background-color: #F4F4F4;
     font-family: 'Poppins', sans-serif;
@@ -34,7 +33,7 @@ form {
         h2 {
             font-size: 30px;
             letter-spacing: 2px;
-            font-weight: bold;
+            font-weight: 500;
         }
     }
     .input-wrapper {
@@ -49,8 +48,8 @@ form {
     }
     
 }
-
 .wrapKirim {
+
     display: flex;
     justify-content: center;
     align-items: center;
@@ -97,14 +96,14 @@ form {
     .wrapKirim {
         .inputKirim {
             font-size: 10px!important;
-            width: 154px;
+            width: 154px!important;
         }
     }
     .myInput {
         border: none;
-        width: 292px;
+        width: 292px!important;
         height: 40px!important;
-        border-radius: 20px;
+        border-radius: 20px!important;
     }
     input::placeholder {
         font-size: 10px!important;
@@ -117,7 +116,7 @@ form {
     border: none;
     width: 392px;
     height: 50px;
-    border-radius: 20px;
+    border-radius: 30px;
 }
 input::placeholder {
     font-size: 14px;
