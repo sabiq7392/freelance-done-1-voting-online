@@ -77,12 +77,21 @@ form .input-wrapper .link-wrapper a {
 }
 
 .wrapKirim .inputKirim {
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
   color: white;
   font-size: 14px;
   margin: 0 15px;
   width: 254px;
   background: -webkit-gradient(linear, left top, right top, color-stop(1%, #eb4d4b), color-stop(72%, #ff416c));
   background: linear-gradient(90deg, #eb4d4b 1%, #ff416c 72%);
+}
+
+.wrapKirim .inputKirim:hover {
+  -webkit-transform: translateY(-5px);
+          transform: translateY(-5px);
+  -webkit-box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.25);
+          box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.25);
 }
 
 @media screen and (max-width: 767px) {
@@ -117,6 +126,8 @@ form .input-wrapper .link-wrapper a {
 }
 
 .myInput {
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
   border: none;
   width: 392px;
   height: 50px;
