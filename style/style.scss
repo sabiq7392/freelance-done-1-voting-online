@@ -1,0 +1,140 @@
+$myshadow:0px 2px 5px 0px rgba(0,0,0,0.25);
+$primaryColor:#EB4D4B;
+$darkColor:#898989;
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html {
+    scroll-behavior: smooth;
+}
+body {
+    
+    height: 100vh;
+    background-color: #F4F4F4;
+    font-family: 'Poppins', sans-serif;
+}
+.title {
+    height: 60px;
+    background-color: $primaryColor;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    animation: up 2s;
+    .brand-title {
+        img {
+            width: 130px;
+        }
+    }
+}
+
+form {
+    div {
+        h2 {
+            font-size: 30px;
+            letter-spacing: 2px;
+            font-weight: bold;
+        }
+    }
+    .input-wrapper {
+        .link-wrapper {
+            display: flex;
+            justify-content: space-between;
+            a {
+                font-size: 14px;
+                color: $darkColor;
+            }
+        }
+    }
+    
+}
+
+.wrapKirim {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .line {
+        width: 30%;
+        height: 1px;
+        background-color: #D4D4D4;
+    }
+    .inputKirim {
+        color: white;
+        font-size: 14px;
+        margin: 0 15px;
+        width: 254px;
+        background: linear-gradient(90deg, rgba(235,77,75,1) 1%, rgba(255,65,108,1) 72%);
+    }
+}
+
+
+
+
+
+
+
+
+
+// MEDIA QUARIES
+
+@media screen and (max-width:767px) {
+    form {
+        div {
+            h2 {
+                font-size: 22px;
+            }
+        }
+        .input-wrapper {
+            .link-wrapper {
+                a {
+                    font-size: 10px;
+                }
+            }
+        }
+        
+    }
+    .wrapKirim {
+        .inputKirim {
+            font-size: 10px!important;
+            width: 154px;
+        }
+    }
+    .myInput {
+        border: none;
+        width: 292px;
+        height: 40px!important;
+        border-radius: 20px;
+    }
+    input::placeholder {
+        font-size: 10px!important;
+    }
+}
+// ========== Frozen Spot =============
+
+// SPAWN INPUT
+.myInput {
+    border: none;
+    width: 392px;
+    height: 50px;
+    border-radius: 20px;
+}
+input::placeholder {
+    font-size: 14px;
+}
+.form-control:focus {
+    border-color: $primaryColor;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.015) inset, 0 0 4px $primaryColor;
+    outline: 0 none;
+}
+
+// Key Frames 
+@keyframes up {
+    from {
+        height: 100vh;
+    }
+    to {
+        height: 60px;
+    }
+}
+// media quaries
