@@ -33,8 +33,6 @@ body {
 }
 
 .title .brand-title img {
-  position: relative;
-  z-index: 2;
   width: 130px;
 }
 
@@ -95,6 +93,9 @@ form .input-wrapper .link-wrapper a {
 }
 
 @media screen and (max-width: 767px) {
+  .title .brand-title img {
+    width: 100px;
+  }
   form div h2 {
     font-size: 22px;
   }
