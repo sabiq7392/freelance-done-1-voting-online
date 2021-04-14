@@ -16,47 +16,28 @@ body {
 }
 
 .title {
-  height: 200px;
-  background-color: #EB4D4B;
-  width: 100%;
-  -webkit-clip-path: polygon(100% 0%, 0% 0%, 0% 65%, 1% 64.95%, 2% 64.8%, 3% 64.6%, 4% 64.3%, 5% 63.9%, 6% 63.45%, 7% 62.9%, 8% 62.25%, 9% 61.55%, 10% 60.8%, 11% 59.95%, 12% 59.05%, 13% 58.1%, 14% 57.1%, 15% 56.05%, 16% 55%, 17% 53.9%, 18% 52.8%, 19% 51.65%, 20% 50.5%, 21% 49.35%, 22% 48.2%, 23% 47.05%, 24% 45.9%, 25% 44.8%, 26% 43.75%, 27% 42.75%, 28% 41.75%, 29% 40.8%, 30% 39.9%, 31% 39.1%, 32% 38.35%, 33% 37.65%, 34% 37.05%, 35% 36.5%, 36% 36.05%, 37% 35.65%, 38% 35.35%, 39% 35.15%, 40% 35.05%, 41% 35%, 42% 35.05%, 43% 35.2%, 44% 35.45%, 45% 35.75%, 46% 36.15%, 47% 36.65%, 48% 37.2%, 49% 37.85%, 50% 38.55%, 51% 39.35%, 52% 40.2%, 53% 41.1%, 54% 42.05%, 55% 43.05%, 56% 44.1%, 57% 45.15%, 58% 46.3%, 59% 47.4%, 60% 48.55%, 61% 49.7%, 62% 50.85%, 63% 52%, 64% 53.15%, 65% 54.25%, 66% 55.35%, 67% 56.4%, 68% 57.45%, 69% 58.4%, 70% 59.35%, 71% 60.2%, 72% 61.05%, 73% 61.8%, 74% 62.45%, 75% 63.05%, 76% 63.6%, 77% 64.05%, 78% 64.4%, 79% 64.7%, 80% 64.85%, 81% 65%, 82% 65%, 83% 64.9%, 84% 64.75%, 85% 64.5%, 86% 64.2%, 87% 63.75%, 88% 63.25%, 89% 62.7%, 90% 62.05%, 91% 61.3%, 92% 60.5%, 93% 59.65%, 94% 58.75%, 95% 57.8%, 96% 56.8%, 97% 55.75%, 98% 54.65%, 99% 53.55%, 100% 52.4%);
-          clip-path: polygon(100% 0%, 0% 0%, 0% 65%, 1% 64.95%, 2% 64.8%, 3% 64.6%, 4% 64.3%, 5% 63.9%, 6% 63.45%, 7% 62.9%, 8% 62.25%, 9% 61.55%, 10% 60.8%, 11% 59.95%, 12% 59.05%, 13% 58.1%, 14% 57.1%, 15% 56.05%, 16% 55%, 17% 53.9%, 18% 52.8%, 19% 51.65%, 20% 50.5%, 21% 49.35%, 22% 48.2%, 23% 47.05%, 24% 45.9%, 25% 44.8%, 26% 43.75%, 27% 42.75%, 28% 41.75%, 29% 40.8%, 30% 39.9%, 31% 39.1%, 32% 38.35%, 33% 37.65%, 34% 37.05%, 35% 36.5%, 36% 36.05%, 37% 35.65%, 38% 35.35%, 39% 35.15%, 40% 35.05%, 41% 35%, 42% 35.05%, 43% 35.2%, 44% 35.45%, 45% 35.75%, 46% 36.15%, 47% 36.65%, 48% 37.2%, 49% 37.85%, 50% 38.55%, 51% 39.35%, 52% 40.2%, 53% 41.1%, 54% 42.05%, 55% 43.05%, 56% 44.1%, 57% 45.15%, 58% 46.3%, 59% 47.4%, 60% 48.55%, 61% 49.7%, 62% 50.85%, 63% 52%, 64% 53.15%, 65% 54.25%, 66% 55.35%, 67% 56.4%, 68% 57.45%, 69% 58.4%, 70% 59.35%, 71% 60.2%, 72% 61.05%, 73% 61.8%, 74% 62.45%, 75% 63.05%, 76% 63.6%, 77% 64.05%, 78% 64.4%, 79% 64.7%, 80% 64.85%, 81% 65%, 82% 65%, 83% 64.9%, 84% 64.75%, 85% 64.5%, 86% 64.2%, 87% 63.75%, 88% 63.25%, 89% 62.7%, 90% 62.05%, 91% 61.3%, 92% 60.5%, 93% 59.65%, 94% 58.75%, 95% 57.8%, 96% 56.8%, 97% 55.75%, 98% 54.65%, 99% 53.55%, 100% 52.4%);
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  height: 200px;
+  width: 100%;
+  background-color: #EB4D4B;
+  -webkit-clip-path: polygon(100% 0%, 0% 0%, 0% 65%, 1% 64.95%, 2% 64.8%, 3% 64.6%, 4% 64.3%, 5% 63.9%, 6% 63.45%, 7% 62.9%, 8% 62.25%, 9% 61.55%, 10% 60.8%, 11% 59.95%, 12% 59.05%, 13% 58.1%, 14% 57.1%, 15% 56.05%, 16% 55%, 17% 53.9%, 18% 52.8%, 19% 51.65%, 20% 50.5%, 21% 49.35%, 22% 48.2%, 23% 47.05%, 24% 45.9%, 25% 44.8%, 26% 43.75%, 27% 42.75%, 28% 41.75%, 29% 40.8%, 30% 39.9%, 31% 39.1%, 32% 38.35%, 33% 37.65%, 34% 37.05%, 35% 36.5%, 36% 36.05%, 37% 35.65%, 38% 35.35%, 39% 35.15%, 40% 35.05%, 41% 35%, 42% 35.05%, 43% 35.2%, 44% 35.45%, 45% 35.75%, 46% 36.15%, 47% 36.65%, 48% 37.2%, 49% 37.85%, 50% 38.55%, 51% 39.35%, 52% 40.2%, 53% 41.1%, 54% 42.05%, 55% 43.05%, 56% 44.1%, 57% 45.15%, 58% 46.3%, 59% 47.4%, 60% 48.55%, 61% 49.7%, 62% 50.85%, 63% 52%, 64% 53.15%, 65% 54.25%, 66% 55.35%, 67% 56.4%, 68% 57.45%, 69% 58.4%, 70% 59.35%, 71% 60.2%, 72% 61.05%, 73% 61.8%, 74% 62.45%, 75% 63.05%, 76% 63.6%, 77% 64.05%, 78% 64.4%, 79% 64.7%, 80% 64.85%, 81% 65%, 82% 65%, 83% 64.9%, 84% 64.75%, 85% 64.5%, 86% 64.2%, 87% 63.75%, 88% 63.25%, 89% 62.7%, 90% 62.05%, 91% 61.3%, 92% 60.5%, 93% 59.65%, 94% 58.75%, 95% 57.8%, 96% 56.8%, 97% 55.75%, 98% 54.65%, 99% 53.55%, 100% 52.4%);
+          clip-path: polygon(100% 0%, 0% 0%, 0% 65%, 1% 64.95%, 2% 64.8%, 3% 64.6%, 4% 64.3%, 5% 63.9%, 6% 63.45%, 7% 62.9%, 8% 62.25%, 9% 61.55%, 10% 60.8%, 11% 59.95%, 12% 59.05%, 13% 58.1%, 14% 57.1%, 15% 56.05%, 16% 55%, 17% 53.9%, 18% 52.8%, 19% 51.65%, 20% 50.5%, 21% 49.35%, 22% 48.2%, 23% 47.05%, 24% 45.9%, 25% 44.8%, 26% 43.75%, 27% 42.75%, 28% 41.75%, 29% 40.8%, 30% 39.9%, 31% 39.1%, 32% 38.35%, 33% 37.65%, 34% 37.05%, 35% 36.5%, 36% 36.05%, 37% 35.65%, 38% 35.35%, 39% 35.15%, 40% 35.05%, 41% 35%, 42% 35.05%, 43% 35.2%, 44% 35.45%, 45% 35.75%, 46% 36.15%, 47% 36.65%, 48% 37.2%, 49% 37.85%, 50% 38.55%, 51% 39.35%, 52% 40.2%, 53% 41.1%, 54% 42.05%, 55% 43.05%, 56% 44.1%, 57% 45.15%, 58% 46.3%, 59% 47.4%, 60% 48.55%, 61% 49.7%, 62% 50.85%, 63% 52%, 64% 53.15%, 65% 54.25%, 66% 55.35%, 67% 56.4%, 68% 57.45%, 69% 58.4%, 70% 59.35%, 71% 60.2%, 72% 61.05%, 73% 61.8%, 74% 62.45%, 75% 63.05%, 76% 63.6%, 77% 64.05%, 78% 64.4%, 79% 64.7%, 80% 64.85%, 81% 65%, 82% 65%, 83% 64.9%, 84% 64.75%, 85% 64.5%, 86% 64.2%, 87% 63.75%, 88% 63.25%, 89% 62.7%, 90% 62.05%, 91% 61.3%, 92% 60.5%, 93% 59.65%, 94% 58.75%, 95% 57.8%, 96% 56.8%, 97% 55.75%, 98% 54.65%, 99% 53.55%, 100% 52.4%);
   -webkit-animation: up 2s;
           animation: up 2s;
 }
 
 .title .brand-title {
-  margin-top: 20px;
+  margin-top: 50px;
 }
 
 .title .brand-title img {
   width: 130px;
 }
 
-form div h2 {
-  font-size: 30px;
-  letter-spacing: 2px;
-  font-weight: 500;
-}
-
-form .input-wrapper .link-wrapper {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-}
-
-form .input-wrapper .link-wrapper a {
-  font-size: 14px;
-  color: #898989;
-}
-
-.wrapKirim {
+form .container__input {
+  margin-top: 30px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -68,71 +49,85 @@ form .input-wrapper .link-wrapper a {
           align-items: center;
 }
 
-.wrapKirim .line {
-  width: 30%;
-  height: 1px;
-  background-color: #D4D4D4;
+form .input-wrapper .lupaBelum {
+  margin-top: 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
-.wrapKirim .inputKirim {
-  -webkit-transition: 0.2s;
-  transition: 0.2s;
-  color: white;
+form .input-wrapper .lupaBelum a {
   font-size: 14px;
-  margin: 0 15px;
-  width: 254px;
-  background: -webkit-gradient(linear, left top, right top, color-stop(1%, #eb4d4b), color-stop(72%, #ff416c));
-  background: linear-gradient(90deg, #eb4d4b 1%, #ff416c 72%);
-}
-
-.wrapKirim .inputKirim:hover {
-  -webkit-transform: translateY(-5px);
-          transform: translateY(-5px);
-  -webkit-box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.25);
-          box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.25);
+  color: #898989;
 }
 
 @media screen and (max-width: 767px) {
   .title .brand-title img {
     width: 100px;
   }
-  form div h2 {
-    font-size: 22px;
-  }
   form .input-wrapper .link-wrapper a {
-    font-size: 10px;
+    font-size: 14px;
   }
-  .wrapKirim .inputKirim {
-    font-size: 10px !important;
-    width: 154px !important;
+  input[type=text], input[type=number] {
+    width: 320px !important;
   }
-  .myInput {
-    border: none;
-    width: 292px !important;
-    height: 40px !important;
-    border-radius: 20px !important;
-  }
-  input::-webkit-input-placeholder {
-    font-size: 10px !important;
-  }
-  input:-ms-input-placeholder {
-    font-size: 10px !important;
-  }
-  input::-ms-input-placeholder {
-    font-size: 10px !important;
-  }
-  input::placeholder {
-    font-size: 10px !important;
+  h2 {
+    font-size: 25px;
   }
 }
 
-.myInput {
+@-webkit-keyframes up {
+  from {
+    height: 200vh;
+  }
+  to {
+    height: 200px;
+  }
+}
+
+@keyframes up {
+  from {
+    height: 200vh;
+  }
+  to {
+    height: 200px;
+  }
+}
+
+.form-control:focus {
+  border-color: #EB4D4B;
+  -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.015) inset, 0 0 4px #EB4D4B;
+          box-shadow: 0 1px 1px rgba(0, 0, 0, 0.015) inset, 0 0 4px #EB4D4B;
+  outline: 0 none;
+}
+
+input {
   -webkit-transition: 0.2s;
   transition: 0.2s;
+  border-radius: 30px !important;
+  height: 50px !important;
+  margin-top: 15px;
   border: none;
+}
+
+input[type=submit] {
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+  color: white;
+}
+
+input[type=submit]:hover {
+  -webkit-transform: translateY(-5px);
+          transform: translateY(-5px);
+  -webkit-box-shadow: 0px 4px 5px 0px rgba(0, 0, 0, 0.25);
+          box-shadow: 0px 4px 5px 0px rgba(0, 0, 0, 0.25);
+}
+
+input[type=text], input[type=number] {
   width: 392px;
-  height: 50px;
-  border-radius: 30px;
 }
 
 input::-webkit-input-placeholder {
@@ -151,28 +146,20 @@ input::placeholder {
   font-size: 14px;
 }
 
-.form-control:focus {
-  border-color: #EB4D4B;
-  -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.015) inset, 0 0 4px #EB4D4B;
-          box-shadow: 0 1px 1px rgba(0, 0, 0, 0.015) inset, 0 0 4px #EB4D4B;
-  outline: 0 none;
+.next, .kirim {
+  background: -webkit-gradient(linear, left top, right top, color-stop(1%, #eb4d4b), color-stop(72%, #ff416c));
+  background: linear-gradient(90deg, #eb4d4b 1%, #ff416c 72%);
 }
 
-@-webkit-keyframes up {
-  from {
-    height: 100vh;
-  }
-  to {
-    height: 200px;
-  }
+h2 {
+  font-weight: 700;
+  font-size: 30px;
+  letter-spacing: 2px;
+  font-weight: 800;
 }
 
-@keyframes up {
-  from {
-    height: 100vh;
-  }
-  to {
-    height: 200px;
-  }
+h6 {
+  font-size: 14px;
+  color: #898989;
 }
 /*# sourceMappingURL=style.css.map */
