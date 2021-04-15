@@ -157,7 +157,15 @@ input::placeholder {
   background: linear-gradient(90deg, #621211 0%, #eb4d4b 100%);
 }
 
+input[type=checkbox] {
+  position: relative;
+  top: -30px;
+  left: 10px;
+  border: 1px solid red !important;
+}
+
 h2 {
+  font-weight: bold;
   font-size: 30px;
   letter-spacing: 2px;
 }
