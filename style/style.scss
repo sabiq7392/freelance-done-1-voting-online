@@ -4,7 +4,7 @@ $darkColor:#898989;
 $fontSizeSmall__XL:14px;
 $fontSizeSmall__SM:10px;
 $smallMargin:15px;
-$marginContent:30px;
+$bigMargin:30px;
 
 * {
     padding: 0;
@@ -35,13 +35,13 @@ body {
 }
 form {
     .container__input {
-        margin-top:$marginContent;
+        margin-top:$bigMargin;
         display: flex;
         justify-content: center;
         align-items: center;
     }
     .input-wrapper .lupaBelum {
-        margin-top: $smallMargin;
+        margin:$smallMargin 0;
         display: flex;
         justify-content: space-between;
         a {
@@ -56,12 +56,13 @@ form {
     display: flex;
     justify-content: space-between;
     a {
+        font-size: 14px;
         text-decoration: none;
         transition: 0.2s;
         border-radius: 30px;
         width: 136px;
         padding: 12px;
-        margin-top: $smallMargin;
+        margin: $smallMargin 0;
         text-align: center;
         color: white;
     }
@@ -72,8 +73,41 @@ form {
     input[type=submit] {
         width: 136px;
     }
-    
+
 }
+.gender {
+    display: flex;    
+    justify-content: center;
+}
+
+//============================= Berhasil Registrasi
+.title-simple {
+    height: 200px;
+    width: 100%;
+    .brand-title {
+        margin-top:30px ;
+        img {
+            width: 150px;
+        }
+    }
+}
+.keLogin {
+    margin-top: 100px;
+    .keLoginButton {
+        border-radius: 30px;
+        transition: 0.2s;
+        border: 1px solid $primaryColor;
+        color: $primaryColor;
+        padding:20px 80px;
+        text-decoration: none!important;
+    }
+    .keLoginButton:hover {
+        box-shadow: $myshadow;
+        transform: translateY(-5px);
+    }
+}
+
+//===================================
 
 // MEDIA QUARIES
 @media screen and (max-width:767px) {
@@ -88,6 +122,9 @@ form {
     }
     h2 {
         font-size: 22px;
+    }
+    h1 {
+        font-size: 40px!important;
     }
 }
 
@@ -113,9 +150,11 @@ input {
     font-size: 14px!important;
     transition: 0.2s;
     border-radius:30px!important;
-    height: 50px!important;
     margin-top: $smallMargin;
     border: none!important;
+}
+input::placeholder {
+    font-size: 14px;
 }
 input[type=submit] {
     transition: 0.2s;
@@ -125,22 +164,24 @@ input[type=submit]:hover {
     transform: translateY(-5px);
     box-shadow: $myshadow;
 }
-input[type=text], input[type=number] {
+input[type=text], input[type=number], input[type=email], input[type=password], input[type=submit] {
+    height: 50px!important;
     width: 392px;
 }
-input::placeholder {
-    font-size: 14px;
-}
+
 .next, .kirim {
     background: linear-gradient(90deg, rgba(235,77,75,1) 1%, rgba(255,65,108,1) 72%);
 }
 .back {
     background: linear-gradient(90deg, rgba(98,18,17,1) 0%, rgba(235,77,75,1) 100%);
 }
-
-
-
-
+h1 {
+    font-size: 50px;
+    font-weight: normal;
+    span {
+        color: $primaryColor;
+    }
+}
 h2 {
     font-weight: bold;
     font-size: 30px;
