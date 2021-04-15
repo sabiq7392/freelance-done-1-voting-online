@@ -51,6 +51,29 @@ form {
     }
 }
 
+// =========================== Registrasi
+.tombol {
+    display: flex;
+    justify-content: space-between;
+    a {
+        text-decoration: none;
+        transition: 0.2s;
+        border-radius: 30px;
+        width: 136px;
+        padding: 12px;
+        margin-top: $smallMargin;
+        text-align: center;
+        color: white;
+    }
+    a:hover {
+        box-shadow: $myshadow;
+        transform: translateY(-5px);
+    }
+    input[type=submit] {
+        width: 136px;
+    }
+    
+}
 
 // MEDIA QUARIES
 @media screen and (max-width:767px) {
@@ -114,6 +137,7 @@ input::placeholder {
 .back {
     background: linear-gradient(90deg, rgba(98,18,17,1) 0%, rgba(235,77,75,1) 100%);
 }
+
 
 
 
