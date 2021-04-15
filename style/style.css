@@ -29,11 +29,11 @@ body {
 }
 
 .title .brand-title {
-  margin-top: 50px;
+  margin-top: 30px;
 }
 
 .title .brand-title img {
-  width: 130px;
+  width: 150px;
 }
 
 form .container__input {
@@ -66,7 +66,7 @@ form .input-wrapper .lupaBelum a {
 
 @media screen and (max-width: 767px) {
   .title .brand-title img {
-    width: 100px;
+    width: 150px;
   }
   form .input-wrapper .link-wrapper a {
     font-size: 14px;
@@ -75,7 +75,7 @@ form .input-wrapper .lupaBelum a {
     width: 320px !important;
   }
   h2 {
-    font-size: 25px;
+    font-size: 22px;
   }
 }
 
@@ -105,12 +105,13 @@ form .input-wrapper .lupaBelum a {
 }
 
 input {
+  font-size: 14px !important;
   -webkit-transition: 0.2s;
   transition: 0.2s;
   border-radius: 30px !important;
   height: 50px !important;
   margin-top: 15px;
-  border: none;
+  border: none !important;
 }
 
 input[type=submit] {
@@ -151,11 +152,14 @@ input::placeholder {
   background: linear-gradient(90deg, #eb4d4b 1%, #ff416c 72%);
 }
 
+.back {
+  background: -webkit-gradient(linear, left top, right top, from(#621211), to(#eb4d4b));
+  background: linear-gradient(90deg, #621211 0%, #eb4d4b 100%);
+}
+
 h2 {
-  font-weight: 700;
   font-size: 30px;
   letter-spacing: 2px;
-  font-weight: 800;
 }
 
 h6 {
