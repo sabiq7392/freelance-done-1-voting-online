@@ -71,11 +71,11 @@ form {
         transform: translateY(-5px);
     }
     input[type=submit] {
-        width: 136px;
+        width: 136px!important;
     }
 
 }
-.gender {
+.genderz {
     display: flex;    
     justify-content: center;
 }
@@ -189,7 +189,7 @@ form {
     form  .input-wrapper  .link-wrapper  a{
         font-size: 14px;
     }
-    input[type=text], input[type=number] {
+    input[type=text], input[type=number], input[type=email], input[type=password], input[type=submit] {
         width: 320px!important;
     }
     h2 {

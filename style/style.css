@@ -94,10 +94,10 @@ form .input-wrapper .lupaBelum a {
 }
 
 .tombol input[type=submit] {
-  width: 136px;
+  width: 136px !important;
 }
 
-.gender {
+.genderz {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -236,7 +236,7 @@ form .input-wrapper .lupaBelum a {
   form .input-wrapper .link-wrapper a {
     font-size: 14px;
   }
-  input[type=text], input[type=number] {
+  input[type=text], input[type=number], input[type=email], input[type=password], input[type=submit] {
     width: 320px !important;
   }
   h2 {
