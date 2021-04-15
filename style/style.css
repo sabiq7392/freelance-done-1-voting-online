@@ -24,8 +24,8 @@ body {
   background-color: #EB4D4B;
   -webkit-clip-path: polygon(100% 0%, 0% 0%, 0% 65%, 1% 64.95%, 2% 64.8%, 3% 64.6%, 4% 64.3%, 5% 63.9%, 6% 63.45%, 7% 62.9%, 8% 62.25%, 9% 61.55%, 10% 60.8%, 11% 59.95%, 12% 59.05%, 13% 58.1%, 14% 57.1%, 15% 56.05%, 16% 55%, 17% 53.9%, 18% 52.8%, 19% 51.65%, 20% 50.5%, 21% 49.35%, 22% 48.2%, 23% 47.05%, 24% 45.9%, 25% 44.8%, 26% 43.75%, 27% 42.75%, 28% 41.75%, 29% 40.8%, 30% 39.9%, 31% 39.1%, 32% 38.35%, 33% 37.65%, 34% 37.05%, 35% 36.5%, 36% 36.05%, 37% 35.65%, 38% 35.35%, 39% 35.15%, 40% 35.05%, 41% 35%, 42% 35.05%, 43% 35.2%, 44% 35.45%, 45% 35.75%, 46% 36.15%, 47% 36.65%, 48% 37.2%, 49% 37.85%, 50% 38.55%, 51% 39.35%, 52% 40.2%, 53% 41.1%, 54% 42.05%, 55% 43.05%, 56% 44.1%, 57% 45.15%, 58% 46.3%, 59% 47.4%, 60% 48.55%, 61% 49.7%, 62% 50.85%, 63% 52%, 64% 53.15%, 65% 54.25%, 66% 55.35%, 67% 56.4%, 68% 57.45%, 69% 58.4%, 70% 59.35%, 71% 60.2%, 72% 61.05%, 73% 61.8%, 74% 62.45%, 75% 63.05%, 76% 63.6%, 77% 64.05%, 78% 64.4%, 79% 64.7%, 80% 64.85%, 81% 65%, 82% 65%, 83% 64.9%, 84% 64.75%, 85% 64.5%, 86% 64.2%, 87% 63.75%, 88% 63.25%, 89% 62.7%, 90% 62.05%, 91% 61.3%, 92% 60.5%, 93% 59.65%, 94% 58.75%, 95% 57.8%, 96% 56.8%, 97% 55.75%, 98% 54.65%, 99% 53.55%, 100% 52.4%);
           clip-path: polygon(100% 0%, 0% 0%, 0% 65%, 1% 64.95%, 2% 64.8%, 3% 64.6%, 4% 64.3%, 5% 63.9%, 6% 63.45%, 7% 62.9%, 8% 62.25%, 9% 61.55%, 10% 60.8%, 11% 59.95%, 12% 59.05%, 13% 58.1%, 14% 57.1%, 15% 56.05%, 16% 55%, 17% 53.9%, 18% 52.8%, 19% 51.65%, 20% 50.5%, 21% 49.35%, 22% 48.2%, 23% 47.05%, 24% 45.9%, 25% 44.8%, 26% 43.75%, 27% 42.75%, 28% 41.75%, 29% 40.8%, 30% 39.9%, 31% 39.1%, 32% 38.35%, 33% 37.65%, 34% 37.05%, 35% 36.5%, 36% 36.05%, 37% 35.65%, 38% 35.35%, 39% 35.15%, 40% 35.05%, 41% 35%, 42% 35.05%, 43% 35.2%, 44% 35.45%, 45% 35.75%, 46% 36.15%, 47% 36.65%, 48% 37.2%, 49% 37.85%, 50% 38.55%, 51% 39.35%, 52% 40.2%, 53% 41.1%, 54% 42.05%, 55% 43.05%, 56% 44.1%, 57% 45.15%, 58% 46.3%, 59% 47.4%, 60% 48.55%, 61% 49.7%, 62% 50.85%, 63% 52%, 64% 53.15%, 65% 54.25%, 66% 55.35%, 67% 56.4%, 68% 57.45%, 69% 58.4%, 70% 59.35%, 71% 60.2%, 72% 61.05%, 73% 61.8%, 74% 62.45%, 75% 63.05%, 76% 63.6%, 77% 64.05%, 78% 64.4%, 79% 64.7%, 80% 64.85%, 81% 65%, 82% 65%, 83% 64.9%, 84% 64.75%, 85% 64.5%, 86% 64.2%, 87% 63.75%, 88% 63.25%, 89% 62.7%, 90% 62.05%, 91% 61.3%, 92% 60.5%, 93% 59.65%, 94% 58.75%, 95% 57.8%, 96% 56.8%, 97% 55.75%, 98% 54.65%, 99% 53.55%, 100% 52.4%);
-  -webkit-animation: up 1s;
-          animation: up 1s;
+  -webkit-animation: up 2s;
+          animation: up 2s;
 }
 
 .title .brand-title {
@@ -50,7 +50,7 @@ form .container__input {
 }
 
 form .input-wrapper .lupaBelum {
-  margin: 15px 0;
+  margin: 30px 0;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -94,16 +94,7 @@ form .input-wrapper .lupaBelum a {
 }
 
 .tombol input[type=submit] {
-  width: 136px !important;
-}
-
-.genderz {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  width: 136px;
 }
 
 .title-simple {
@@ -117,10 +108,6 @@ form .input-wrapper .lupaBelum a {
 
 .title-simple .brand-title img {
   width: 150px;
-}
-
-.notifDone {
-  font-size: 40px;
 }
 
 .keLogin {
@@ -140,93 +127,8 @@ form .input-wrapper .lupaBelum a {
 .keLogin .keLoginButton:hover {
   -webkit-box-shadow: 0px 4px 5px 0px rgba(0, 0, 0, 0.25);
           box-shadow: 0px 4px 5px 0px rgba(0, 0, 0, 0.25);
-  -webkit-transform: translateY(-10px);
-          transform: translateY(-10px);
-}
-
-.main__page {
-  padding-bottom: 100px;
-}
-
-.main__page .card__calon {
-  border-radius: 30px;
-  min-width: 350px;
-  -webkit-box-shadow: 0px 4px 5px 0px rgba(0, 0, 0, 0.25);
-          box-shadow: 0px 4px 5px 0px rgba(0, 0, 0, 0.25);
-  margin-top: 50px;
-  background-color: white;
-  text-align: center;
-  padding-bottom: 20px;
-}
-
-.main__page .card__calon .no__calon {
-  border-top-left-radius: 30px;
-  border-top-right-radius: 30px;
-  background-color: #EB4D4B;
-}
-
-.main__page .card__calon .no__calon h4 {
-  letter-spacing: 2px;
-  padding: 10px 0;
-  color: white;
-  font-weight: normal;
-}
-
-.main__page .card__calon .img__calon {
-  margin: auto;
-  margin-top: 25px;
-  margin-bottom: 25px;
-  width: 100%;
-}
-
-.main__page .card__calon .img__calon img {
-  width: 100%;
-}
-
-.main__page .card__calon .point {
-  width: 92%;
-  margin: 50px auto 0 auto;
-}
-
-.main__page .card__calon .point .title__calon {
-  margin-bottom: 15px;
-  width: 100%;
-}
-
-.main__page .card__calon .point .title__calon h4 {
-  font-weight: bold;
-  font-size: 25px;
-}
-
-.main__page .card__calon .point .visi {
-  color: #EB4D4B;
-  border: 2px solid #EB4D4B;
-}
-
-.main__page .card__calon .point .voting {
-  background: -webkit-gradient(linear, left top, right top, color-stop(1%, #eb4d4b), color-stop(72%, #ff416c));
-  background: linear-gradient(90deg, #eb4d4b 1%, #ff416c 72%);
-  color: white;
-  border: 2px solid #EB4D4B;
-}
-
-.main__page .card__calon .point .visi, .main__page .card__calon .point .voting {
-  margin-bottom: 5px;
-  border-radius: 5px !important;
-  padding: 18px 15% !important;
-  text-decoration: none;
-  font-weight: bold;
-  -webkit-transition: 0.2s;
-  transition: 0.2s;
-}
-
-.main__page .card__calon .point .visi:hover, .main__page .card__calon .point .voting:hover {
-  -webkit-transform: translateY(-2px);
-          transform: translateY(-2px);
-}
-
-.main__page .card__calon .point .visi__collapse {
-  margin-top: 30px;
+  -webkit-transform: translateY(-5px);
+          transform: translateY(-5px);
 }
 
 @media screen and (max-width: 767px) {
@@ -236,20 +138,14 @@ form .input-wrapper .lupaBelum a {
   form .input-wrapper .link-wrapper a {
     font-size: 14px;
   }
-  input[type=text], input[type=number], input[type=email], input[type=password], input[type=submit] {
+  input[type=text], input[type=number] {
     width: 320px !important;
   }
   h2 {
     font-size: 22px;
   }
   h1 {
-    font-size: 30px !important;
-  }
-  h4 {
-    font-size: 17px  !important;
-  }
-  a {
-    font-size: 14px !important;
+    font-size: 40px !important;
   }
 }
 
@@ -283,8 +179,26 @@ input {
   -webkit-transition: 0.2s;
   transition: 0.2s;
   border-radius: 30px !important;
+  height: 50px !important;
   margin-top: 15px;
   border: none !important;
+}
+
+input[type=submit] {
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+  color: white;
+}
+
+input[type=submit]:hover {
+  -webkit-transform: translateY(-5px);
+          transform: translateY(-5px);
+  -webkit-box-shadow: 0px 4px 5px 0px rgba(0, 0, 0, 0.25);
+          box-shadow: 0px 4px 5px 0px rgba(0, 0, 0, 0.25);
+}
+
+input[type=text], input[type=number] {
+  width: 392px;
 }
 
 input::-webkit-input-placeholder {
@@ -303,24 +217,6 @@ input::placeholder {
   font-size: 14px;
 }
 
-input[type=submit] {
-  -webkit-transition: 0.2s;
-  transition: 0.2s;
-  color: white;
-}
-
-input[type=submit]:hover {
-  -webkit-transform: translateY(-5px);
-          transform: translateY(-5px);
-  -webkit-box-shadow: 0px 4px 5px 0px rgba(0, 0, 0, 0.25);
-          box-shadow: 0px 4px 5px 0px rgba(0, 0, 0, 0.25);
-}
-
-input[type=text], input[type=number], input[type=email], input[type=password], input[type=submit] {
-  height: 50px !important;
-  width: 392px;
-}
-
 .next, .kirim {
   background: -webkit-gradient(linear, left top, right top, color-stop(1%, #eb4d4b), color-stop(72%, #ff416c));
   background: linear-gradient(90deg, #eb4d4b 1%, #ff416c 72%);
@@ -333,6 +229,11 @@ input[type=text], input[type=number], input[type=email], input[type=password], i
 
 h1 {
   font-size: 50px;
+  font-weight: normal;
+}
+
+h1 span {
+  color: #EB4D4B;
 }
 
 h2 {
@@ -344,9 +245,5 @@ h2 {
 h6 {
   font-size: 14px;
   color: #898989;
-}
-
-span {
-  color: #EB4D4B;
 }
 /*# sourceMappingURL=style.css.map */
