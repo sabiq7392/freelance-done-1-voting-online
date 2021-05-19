@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;700&display=swap");
 * {
   padding: 0;
   margin: 0;
@@ -12,7 +13,7 @@ html {
 body {
   height: 100vh;
   background-color: #f5f5f5;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Quicksand', sans-serif;
 }
 
 .title {
@@ -60,7 +61,7 @@ form .input-wrapper .lupaBelum {
 }
 
 form .input-wrapper .lupaBelum a {
-  font-size: 14px;
+  font-size: 10px;
   color: #898989;
 }
 
@@ -74,7 +75,7 @@ form .input-wrapper .lupaBelum a {
 }
 
 .tombol a {
-  font-size: 14px;
+  font-size: 10px;
   text-decoration: none;
   -webkit-transition: 0.2s;
   transition: 0.2s;
@@ -87,8 +88,8 @@ form .input-wrapper .lupaBelum a {
 }
 
 .tombol a:hover {
-  -webkit-box-shadow: 0px 4px 5px 0px rgba(0, 0, 0, 0.25);
-          box-shadow: 0px 4px 5px 0px rgba(0, 0, 0, 0.25);
+  -webkit-box-shadow: 0px 4px 5px 0px rgba(0, 0, 0, 0.1);
+          box-shadow: 0px 4px 5px 0px rgba(0, 0, 0, 0.1);
   -webkit-transform: translateY(-5px);
           transform: translateY(-5px);
 }
@@ -139,8 +140,8 @@ form .input-wrapper .lupaBelum a {
 }
 
 .keLogin .keLoginButton:hover {
-  -webkit-box-shadow: 0px 4px 5px 0px rgba(0, 0, 0, 0.25);
-          box-shadow: 0px 4px 5px 0px rgba(0, 0, 0, 0.25);
+  -webkit-box-shadow: 0px 4px 5px 0px rgba(0, 0, 0, 0.1);
+          box-shadow: 0px 4px 5px 0px rgba(0, 0, 0, 0.1);
   -webkit-transform: translateY(-2px);
           transform: translateY(-2px);
 }
@@ -163,6 +164,96 @@ form .input-wrapper .lupaBelum a {
   line-height: 200%;
 }
 
+.card__calon {
+  text-align: center;
+  border-radius: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-color: white;
+  -webkit-box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.1);
+          box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.1);
+  width: 350px;
+}
+
+.card__calon .no__calon {
+  background-color: #EB4D4B;
+  padding: 15px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.card__calon .no__calon h4 {
+  color: white;
+  font-weight: 500;
+  margin-bottom: 0px;
+}
+
+.card__calon .img__calon {
+  border-bottom: 1px solid #f2f2f2;
+  padding: 15px;
+}
+
+.card__calon .img__calon img {
+  width: 300px;
+  height: 200px;
+}
+
+.card__calon .point {
+  padding: 15px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.card__calon .point .title__calon h5 {
+  color: black;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.card__calon .point .profile__voting {
+  margin-top: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 15px;
+}
+
+.card__calon .point .profile__voting .profile, .card__calon .point .profile__voting .voting {
+  border-radius: 10px !important;
+  text-decoration: none;
+  font-weight: 600;
+  -webkit-transition: 200ms;
+  transition: 200ms;
+}
+
+.card__calon .point .profile__voting .profile {
+  color: #EB4D4B;
+  border: 1px solid #EB4D4B;
+}
+
+.card__calon .point .profile__voting .voting {
+  margin-bottom: 15px;
+  background: -webkit-gradient(linear, left top, right top, color-stop(1%, #eb4d4b), color-stop(72%, #ff416c));
+  background: linear-gradient(90deg, #eb4d4b 1%, #ff416c 72%);
+  color: white;
+}
+
+.card__calon .point .profile__voting .profile:hover, .card__calon .point .profile__voting .voting:hover {
+  -webkit-box-shadow: 0px 4px 5px 0px rgba(0, 0, 0, 0.1);
+          box-shadow: 0px 4px 5px 0px rgba(0, 0, 0, 0.1);
+  -webkit-filter: brightness(90%);
+          filter: brightness(90%);
+}
+
 .voting__yakin {
   padding-bottom: 100px;
 }
@@ -170,10 +261,6 @@ form .input-wrapper .lupaBelum a {
 .voting__yakin h4 {
   font-weight: 600;
   margin-bottom: 30px;
-}
-
-.voting__yakin .card__calon {
-  width: 250px !important;
 }
 
 .voting__yakin .iyaBatal {
@@ -209,8 +296,8 @@ form .input-wrapper .lupaBelum a {
 }
 
 .voting__yakin .iyaBatal .iya:hover, .voting__yakin .iyaBatal .batal:hover {
-  -webkit-box-shadow: 0px 4px 5px 0px rgba(0, 0, 0, 0.25);
-          box-shadow: 0px 4px 5px 0px rgba(0, 0, 0, 0.25);
+  -webkit-box-shadow: 0px 4px 5px 0px rgba(0, 0, 0, 0.1);
+          box-shadow: 0px 4px 5px 0px rgba(0, 0, 0, 0.1);
   -webkit-transform: translateY(-2px);
           transform: translateY(-2px);
 }
@@ -303,13 +390,13 @@ input[type=submit]:hover {
   color: white;
   -webkit-transform: translateY(-2px);
           transform: translateY(-2px);
-  -webkit-box-shadow: 0px 4px 5px 0px rgba(0, 0, 0, 0.25);
-          box-shadow: 0px 4px 5px 0px rgba(0, 0, 0, 0.25);
+  -webkit-box-shadow: 0px 4px 5px 0px rgba(0, 0, 0, 0.1);
+          box-shadow: 0px 4px 5px 0px rgba(0, 0, 0, 0.1);
 }
 
 input[type=text], input[type=number], input[type=email], input[type=password], input[type=submit] {
-  height: 50px !important;
-  width: 392px;
+  height: 40px !important;
+  width: 300px;
 }
 
 .next, .kirim {
@@ -323,8 +410,12 @@ input[type=text], input[type=number], input[type=email], input[type=password], i
   background: linear-gradient(90deg, #621211 0%, #eb4d4b 100%);
 }
 
+h1, h2, h3, h4, h5, h6 {
+  margin-bottom: 0px;
+}
+
 h1 {
-  font-size: 50px;
+  font-size: 40px;
 }
 
 h2 {
@@ -343,88 +434,13 @@ span {
   color: #EB4D4B;
 }
 
-.card__calon {
-  border-radius: 10px;
-  -webkit-box-shadow: 0px 0px 55px 0px rgba(0, 0, 0, 0.25);
-          box-shadow: 0px 0px 55px 0px rgba(0, 0, 0, 0.25);
-  margin-top: 50px;
-  max-width: 400px;
-  margin: 50px auto;
-  background-color: white;
-  text-align: center;
-}
-
-.card__calon .no__calon {
-  border-top-left-radius: 10px;
-  border-top-right-radius: 10px;
-  background-color: #EB4D4B;
-}
-
-.card__calon .no__calon h4 {
-  letter-spacing: 2px;
-  padding: 20px 0;
-  color: white;
-  font-weight: 600;
-}
-
-.card__calon .img__calon {
-  margin: auto;
-  margin-top: 25px;
-  margin-bottom: 25px;
-  width: 100%;
-}
-
-.card__calon .img__calon img {
-  width: 100%;
-}
-
-.card__calon .point {
-  padding: 20px;
-  width: 100%;
-  margin: 50px auto 0 auto;
-}
-
-.card__calon .point .title__calon {
-  margin-bottom: 30px;
-  width: 100%;
-}
-
-.card__calon .point .title__calon h4 {
-  font-weight: 600;
-  font-size: 25px;
-}
-
-.card__calon .point .visi {
-  margin-right: 15px;
-  color: #EB4D4B;
-  border: 2px solid #EB4D4B;
-}
-
-.card__calon .point .voting {
-  background: -webkit-gradient(linear, left top, right top, color-stop(1%, #eb4d4b), color-stop(72%, #ff416c));
-  background: linear-gradient(90deg, #eb4d4b 1%, #ff416c 72%);
-  color: white;
-  border: 2px solid #EB4D4B;
-}
-
-.card__calon .point .visi, .card__calon .point .voting {
-  margin-bottom: 5px;
-  border-radius: 5px !important;
-  padding: 18px 15% !important;
-  text-decoration: none;
-  font-weight: 500;
-  -webkit-transition: 0.2s;
-  transition: 0.2s;
-}
-
-.card__calon .point .visi:hover, .card__calon .point .voting:hover {
-  -webkit-transform: translateY(-2px);
-          transform: translateY(-2px);
-  -webkit-box-shadow: 0px 4px 5px 0px rgba(0, 0, 0, 0.25);
-          box-shadow: 0px 4px 5px 0px rgba(0, 0, 0, 0.25);
-}
-
-.card__calon .point .visi__collapse {
-  margin-top: 30px;
+.custom-row {
+  margin-top: 60px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 /*# sourceMappingURL=style.css.map */

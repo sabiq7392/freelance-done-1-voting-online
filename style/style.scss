@@ -1,23 +1,28 @@
-$myshadow:0px 4px 5px 0px rgba(0,0,0,0.25);
+$myshadow:0px 4px 5px 0px rgba(0,0,0,0.10);
 $primaryColor:#EB4D4B;
 $darkColor:#898989;
 $fontSizeSmall__XL:14px;
 $fontSizeSmall__SM:10px;
 $smallMargin:15px;
 $bigMargin:30px;
+$debug: 1px solid red;
+$in-debug: 1px solid blue;
+
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;700&display=swap');
 
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
+
 html {
     scroll-behavior: smooth;
 }
 body {
     height: 100vh;
     background-color: #f5f5f5;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Quicksand', sans-serif;
 }
 .title {
     display: flex;
@@ -45,7 +50,7 @@ form {
         display: flex;
         justify-content: space-between;
         a {
-            font-size:14px;
+            font-size: 10px;
             color: $darkColor;
         }
     }
@@ -56,7 +61,7 @@ form {
     display: flex;
     justify-content: space-between;
     a {
-        font-size: 14px;
+        font-size: 10px;
         text-decoration: none;
         transition: 0.2s;
         border-radius: 30px;
@@ -128,15 +133,78 @@ form {
     
 }
 
+.card__calon {
+    text-align: center;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.10);
+    width: 350px;
+    .no__calon {
+        background-color: $primaryColor;
+        padding: 15px;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        h4 {
+            color: white;
+            font-weight: 500;
+            margin-bottom: 0px;
+        }
+    }
+    .img__calon {
+        border-bottom: 1px solid #f2f2f2;
+        padding: 15px;
+        img {
+            width: 300px;
+            height: 200px;
+        }
+    }
+    .point {
+        padding: 15px;
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+        .title__calon {
+            h5 {
+                color: black;
+                font-size: 20px;
+                font-weight: 600;
+            }
+        }
+        .profile__voting {
+            margin-top: 30px;
+            display: flex;
+            flex-direction: column;
+            padding: 15px;
+            .profile, .voting {
+                border-radius: 10px !important;
+                text-decoration: none;
+                font-weight: 600;
+                transition: 200ms;
+            }
+            .profile {
+                color: $primaryColor;
+                border: 1px solid $primaryColor;
+            }
+            .voting {
+                margin-bottom: 15px;
+                background: linear-gradient(90deg, rgba(235,77,75,1) 1%, rgba(255,65,108,1) 72%);
+                color: white;
+            }
+            .profile:hover, .voting:hover {
+                box-shadow: $myshadow;
+                filter: brightness(90%);
+            }
+        }
+    }
+}
+
 //================================== Voting Yakin?
 .voting__yakin {
     padding-bottom:100px ;
     h4 {
         font-weight: 600;
         margin-bottom: 30px;
-    }
-    .card__calon {
-        width: 250px!important;
     }
     .iyaBatal {
         margin-top: 30px;
@@ -233,8 +301,8 @@ input[type=submit]:hover {
     box-shadow: $myshadow;
 }
 input[type=text], input[type=number], input[type=email], input[type=password], input[type=submit] {
-    height: 50px!important;
-    width: 392px;
+    height: 40px!important;
+    width: 300px;
 }
 .next, .kirim {
     background: linear-gradient(90deg, rgba(235,77,75,1) 1%, rgba(255,65,108,1) 72%);
@@ -243,8 +311,11 @@ input[type=text], input[type=number], input[type=email], input[type=password], i
 .back {
     background: linear-gradient(90deg, rgba(98,18,17,1) 0%, rgba(235,77,75,1) 100%);
 }
+
+h1, h2, h3, h4, h5, h6 {margin-bottom: 0px;}
+    
 h1 {
-    font-size: 50px;
+    font-size: 40px;
 }
 h2 {
     font-weight:600;
@@ -259,72 +330,76 @@ h5 {
 span {
     color: $primaryColor;
 }
-.card__calon {
-    border-radius: 10px;
-    box-shadow: 0px 0px 55px 0px rgba(0,0,0,0.25);
-    margin-top: 50px;
-    max-width: 400px;
-    margin:50px auto;
-    background-color: white;
-    text-align: center;
-   .no__calon {
-        border-top-left-radius: 10px;
-        border-top-right-radius: 10px;
-        background-color: $primaryColor;
-        h4 {
-            letter-spacing:2px;
-            padding: 20px 0;
-            color: white;
-            font-weight: 600;
-        }
-   }
-   .img__calon {
-       
-        margin: auto;
-        margin-top:25px ;
-        margin-bottom: 25px;
-        width: 100%;
-       img {
-           width: 100%;
-       }
-   }
-   
-   .point {
-        padding: 20px;
-        width: 100%;
-        margin: 50px auto 0 auto;
-        .title__calon {
-            margin-bottom: 30px;
-            width: 100%;
-               h4 {
-                   font-weight: 600;
-                   font-size: 25px;
-               }
-        }
-        .visi {
-            margin-right: 15px;
-            color: $primaryColor;
-            border: 2px solid $primaryColor;
-        }
-        .voting {
-            background: linear-gradient(90deg, rgba(235,77,75,1) 1%, rgba(255,65,108,1) 72%);
-            color: white;
-            border: 2px solid $primaryColor;
-        }
-        .visi, .voting {
-            margin-bottom:5px;
-            border-radius: 5px !important;
-            padding: 18px 15% !important;
-            text-decoration: none;
-            font-weight:500;
-            transition: 0.2s;
-        }
-        .visi:hover, .voting:hover {
-            transform: translateY(-2px);
-            box-shadow: $myshadow;
-        }
-        .visi__collapse{
-            margin-top: 30px;
-        }
-    }
+
+.custom-row {
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
 }
+
+
+
+// .card__calon {
+//     border-radius: 10px;
+//     box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.10);
+//     margin-top: 50px;
+//     width: 350px;
+//     background-color: white;
+//     text-align: center;
+//    .no__calon {
+//         border-top-left-radius: 10px;
+//         border-top-right-radius: 10px;
+//         background-color: $primaryColor;
+//         h4 {
+//             letter-spacing:2px;
+//             padding: 10px 0;
+//             color: white;
+//             font-weight: 600;
+//         }
+//    }
+//    .img__calon {
+//         margin: auto;
+//         width: 300px;
+//        img {
+//            width: 100%;
+//            border-radius: 100%;
+//        }
+//    }
+//    .point {
+//          border: 1px solid red;
+//         width: 100%;
+//         .title__calon {
+//             margin-bottom: 30px ;
+//             width: 100%;
+            
+//                h4 {
+//                    font-weight: 600;
+//                    font-size: 25px;
+//                }
+//         }
+//         .visi {
+//             margin-right: 15px;
+//             color: $primaryColor;
+//             border: 2px solid $primaryColor;
+//         }
+//         .voting {
+//             background: linear-gradient(90deg, rgba(235,77,75,1) 1%, rgba(255,65,108,1) 72%);
+//             color: white;
+//             border: 2px solid $primaryColor;
+//         }
+//         .visi, .voting {
+//             border-radius: 5px !important;
+//             padding: 10px 15% !important;
+//             text-decoration: none;
+//             font-weight:500;
+//             transition: 0.2s;
+//         }
+//         .visi:hover, .voting:hover {
+//             transform: translateY(-2px);
+//             box-shadow: $myshadow;
+//         }
+//         .visi__collapse{
+//             margin-top: 30px;
+//         }
+//     }
+// }
